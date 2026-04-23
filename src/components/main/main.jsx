@@ -187,7 +187,7 @@ const Main = () => {
       {/* ── Top Nav ─────────────────────────────────────────────────────────── */}
       <div className="nav">
         <div className="nav-left">
-          <p className="nav-title">Gemini</p>
+          <p className="nav-title">Gen-nova</p>
           <button className="new-chat-btn" onClick={newChat} title="New chat">
             <img src={assets.plus_icon ?? assets.add_icon} alt="New" />
           </button>
