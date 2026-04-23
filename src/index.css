@@ -6,7 +6,29 @@
   box-sizing: border-box;
   font-family: outfit;
 }
+
 #root{
   min-height: 100vh;
   display: flex;
+}
+
+/* --- Light Elite Palette --- */
+:root {
+  /* Surface Colors */
+  --elite-bg-deep: #f8f9fb;       /* Main page background */
+  --elite-bg-surface: #ffffff;    /* Cards / sidebar */
+  --elite-bg-active: #f1f3f5;     /* Hover/Active */
+
+  /* Border & Separation */
+  --elite-border: #e4e4e7;        /* Soft border */
+  --elite-glass-blur: blur(10px); /* Slightly reduced for light */
+
+  /* Typography */
+  --elite-text-primary: #18181b;   /* Dark text */
+  --elite-text-secondary: #52525b; /* Muted grey */
+  --elite-text-tertiary: #a1a1aa;  /* Placeholder text */
+
+  /* Accent (keep premium feel) */
+  --elite-accent: #b08968;        /* Soft gold */
+  --elite-accent-glow: 0 0 10px rgba(176, 137, 104, 0.2);
 }
